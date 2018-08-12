@@ -1,0 +1,37 @@
+#home-screen {
+  background-image: url('images/blue-galaxy.jpg');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+.container {
+
+}
+
+.container img{
+  max-width: 100%;
+}
+
+.navbar {
+  overflow: hidden;
+}
+
+.navbar a {
+  float: left;
+  padding: 14px 16px;
+  text-decoration: none;
+  color: black;
+}
+
+.dropdown-content {
+  position: absolute;
+  display: none;
+  max-width: 160px;
+  background-color: black;
+  top: 8%;
+  left: 10%;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
