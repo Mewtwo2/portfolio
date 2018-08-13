@@ -1,5 +1,5 @@
 #home-screen {
-  background-image: url('images/blue-galaxy.jpg');
+  background-image: url('images/blue.png');
   background-attachment: fixed;
   background-repeat: no-repeat;
 }
@@ -20,8 +20,12 @@
   float: left;
   padding: 14px 16px;
   text-decoration: none;
-  color: black;
+  color: white;
 }
+
+/* .navbar a:hover {
+  background-color: white;
+} */
 
 .dropdown-content {
   position: absolute;
@@ -29,7 +33,7 @@
   max-width: 160px;
   background-color: black;
   top: 8%;
-  left: 10%;
+  left: 13%;
 }
 
 .dropdown:hover .dropdown-content {
