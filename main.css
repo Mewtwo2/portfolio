@@ -1,14 +1,15 @@
 body{
   margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+nav{
+  border-bottom: 2px solid black;
 }
 
 .container{
   display: block !important;
   text-align: center;
-}
-
-i{
-  color:black;
 }
 
 main{
@@ -19,7 +20,35 @@ main{
   border-radius: 300px;
 }
 
+.project-container{
+  margin: 0 auto;
+  border-top: 2px solid black;
+  padding:1%;
+  /* width:80%; */
+}
+
+.project-container h2{
+  font-weight:bold;
+  font-size: 270%;
+  color: black;
+  text-transform: uppercase;
+}
+
+.project-container h3{
+  color:black;
+  font-weight:bold;
+}
+
+.project-container p{
+  color:black;
+}
+
 footer{
   text-align: center;
   padding: 1%;
+  border-top: 2px solid black;
+}
+
+i{
+  color:black;
 }
