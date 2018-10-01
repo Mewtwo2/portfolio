@@ -1,6 +1,6 @@
 body{
-  margin-top: 5%;
-  margin-bottom: 5%;
+  margin-top: 8%;
+  margin-bottom: 8%;
 }
 
 nav{
@@ -16,15 +16,13 @@ main{
   text-align: center;
 }
 
-.profile-photo{
-  border-radius: 300px;
-}
-
-.project-container{
-  margin: 0 auto;
-  border-top: 2px solid black;
+main h2{
+  margin:0;
   padding:1%;
-  /* width:80%; */
+  font-weight:bold;
+  font-size: 270%;
+  color: black;
+  box-shadow: 10px 10px 15px gray;
 }
 
 .project-container h2{
@@ -34,18 +32,37 @@ main{
   text-transform: uppercase;
 }
 
+.profile-photo{
+  border-radius: 300px;
+}
+
+.project-container{
+  padding:1%;
+  border: 2px solid black;
+}
+
 .project-container h3{
   color:black;
   font-weight:bold;
+  border: 2px solid black;
+  border-radius: 6px;
+  margin: 0 auto;
+  width: 14vw;
+  overflow: hidden;
 }
 
 .project-container p{
   color:black;
 }
 
+.project-container ul{
+  margin-right: 3%;
+  /* list-style-type: none; */
+}
+
 footer{
   text-align: center;
-  padding: 1%;
+  padding: .5%;
   border-top: 2px solid black;
 }
 
