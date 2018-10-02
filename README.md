@@ -1,3 +1,3 @@
-# This is my portfolio website that is still in progress
+# This is my portfolio website
 
-https://coolors.co/dbcdc6-ead7d1-dd99bb-7b506f-1f1a38
+It has projects that I did and it also has links to my Github and Linkedin
