@@ -29,22 +29,6 @@ p{
   font-size: 120%;
 }
 
-main h2{
-  margin:0;
-  padding:1%;
-  font-weight:bold;
-  font-size: 230%;
-  color: #020300;
-  box-shadow: 10px 10px 15px gray;
-}
-
-.project-container h2{
-  font-weight:bold;
-  font-size: 270%;
-  color: #020300;
-  text-transform: uppercase;
-}
-
 .project-container{
   padding:1%;
   padding-left: 22%;
@@ -56,7 +40,7 @@ main h2{
 
 .project-container h3{
   color:#020300;
-  background-color: #007bff;
+  background-color: #a6d9f7;
   font-weight:bold;
   border: 4px solid #020300;
   border-radius: 6px;
