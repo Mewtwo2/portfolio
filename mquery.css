@@ -1,0 +1,47 @@
+@media only screen and (max-width: 1050px) {
+  .project-container h3 {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  iframe{
+    width:400px;
+    height:200px;
+  }
+}
+
+@media only screen and (max-width: 720px) {
+  iframe{
+    width:350px;
+    height:180px;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  iframe{
+    width:310px;
+    height:140px;
+  }
+}
+
+@media only screen and (max-width: 570px) {
+  iframe{
+    width:250px;
+    height:140px;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  iframe{
+    width:220px;
+    height:120px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  iframe{
+    width:180px;
+    height:100px;
+  }
+}
