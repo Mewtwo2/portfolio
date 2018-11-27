@@ -1,5 +1,5 @@
-# This is my portfolio website
+<h1></h1>
 
 https://mewtwo2.github.io/portfolio
 
-It has projects that I did and it also has links to my Github and Linkedin
+It has links to projects and also to my Github and Linkedin accounts
