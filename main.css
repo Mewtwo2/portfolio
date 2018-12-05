@@ -1,28 +1,28 @@
-nav {
+html{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1rem;
+}
+
+body{
+  margin: 0;
+}
+
+.navbar {
+  background:#03a9f4;
+  padding: 1%;
   border-bottom: 2px solid #020300;
-}
-
-.container {
-  display: block !important;
-  text-align: center;
-}
-
-main {
   text-align: center;
 }
 
 h1 {
-  font-size: 260%;
+  font-size: 3.157rem;
+  display: inline-block;
 }
 
 .profile-photo {
   border: 3px solid #020300;
-  border-radius: 300px;
-}
-
-#about-me {
-  padding-left: 22%;
-  padding-right: 22%;
+  border-radius: 50%;
+  float: right;
 }
 
 p {
@@ -31,36 +31,41 @@ p {
 
 .project-container {
   padding: 1%;
-  padding-left: 22%;
-  padding-right: 22%;
   border: 2px solid #020300;
-  background-color: #02182b;
-  color: #a6d9f7;
+  text-align: center;
 }
 
 .project-container h3 {
-  color: #020300;
-  background-color: #a6d9f7;
+  color: #212121;
+  background: linear-gradient(to left,rgba(2,136,209,0.8),rgba(179,229,252,0.8)),url('https://i.pinimg.com/originals/cd/8e/24/cd8e24948f9e5a615cc6b8a87f44214a.jpg');
   font-weight: bold;
-  border: 4px solid #020300;
+  padding:1%;
+  display: inline-block;
   border-radius: 6px;
   margin: 0 auto;
-  font-size: 2em;
-  width: 30%;
+  font-size: 1.777rem;
   overflow: hidden;
+}
+
+.project-links{
+  animation-name: pulse;
+  animation-iteration-count: infinite;
+  animation-duration: 0.7s;
+  animation-direction: alternate;
+  animation-fill-mode: linear;
+}
+
+@keyframes pulse{
+  0%{transform: scale(1);}
+  100%{transform: scale(1.1);}
+}
+
+iframe{
+  display: block;
 }
 
 .project-container ul {
   margin-right: 5%;
   list-style-type: none;
-}
-
-footer {
-  text-align: center;
-  padding: .5%;
-  border-top: 2px solid #020300;
-}
-
-i {
-  color: #020300;
+  display: inline;
 }
