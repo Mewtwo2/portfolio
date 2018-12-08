@@ -8,38 +8,58 @@ body{
 }
 
 .navbar {
-  background:#03a9f4;
-  padding: 1%;
-  border-bottom: 2px solid #020300;
+  padding: 0.5%;
   text-align: center;
 }
 
-h1 {
+.navbar img{
+  border-radius:50%;
+  filter:grayscale(100%);
+  border: 2px solid #000;
+  width: 2.5%;
+}
+
+.about-me{
+  position: relative;
+}
+
+.about-me img{
+  filter:brightness(0.08);
+  width:100%;
+  height:90vh;
+}
+
+.about-me-header{
+  display: block;
+  position: absolute;
+  left: 5%;
+  top: 2%;
   font-size: 3.157rem;
-  display: inline-block;
+  color: #E43A1A;
+  text-shadow: 1px 1px #fff, 1px -1px #fff, -1px 1px #fff, -1px -1px #fff;
 }
 
-.profile-photo {
-  border: 3px solid #020300;
-  border-radius: 50%;
-  float: right;
-}
-
-p {
-  font-size: 120%;
+.about-me-info{
+  display: block;
+  position: absolute;
+  padding:0% 10%;
+  left: 15%;
+  top: 50%;
+  color: #fff;
+  text-shadow: 0.5px 0.5px #E43A1A, 0.5px -0.5px #E43A1A, -0.5px 0.5px #E43A1A, -0.5px -0.5px #E43A1A;
 }
 
 .project-container {
+  background: url("images/forest.png");
   padding: 1%;
-  border: 2px solid #020300;
   text-align: center;
 }
 
 .project-container h3 {
-  color: #212121;
-  background: linear-gradient(to left,rgba(2,136,209,0.8),rgba(179,229,252,0.8)),url('https://i.pinimg.com/originals/cd/8e/24/cd8e24948f9e5a615cc6b8a87f44214a.jpg');
+  color: #E43A1A;
+  background: linear-gradient(-60deg,#03a9f4,#03a9f4,#E43A1A),url('https://image.shutterstock.com/z/stock-vector-abstract-geometric-pattern-with-crossing-thin-straight-lines-stylish-texture-in-gray-color-530415049.jpg');
   font-weight: bold;
-  padding:1%;
+  padding:1% 15%;
   display: inline-block;
   border-radius: 6px;
   margin: 0 auto;
